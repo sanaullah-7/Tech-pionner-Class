@@ -11,7 +11,7 @@ export default function Navabr(){
                 <Link to={"/"}>Home</Link>
               <Link to={"/about"}> About</Link>
                 <h1>Contact</h1>
-                <h1>Services</h1>
+                <Link to={"/service"}>Services</Link>
             </div>
             <div>
                 <button>SignIn</button>
