@@ -1,47 +1,28 @@
-// export default function K() {
+// import { useState, useEffect } from "react";
 
-//     let count = 0;
+// export default function usestate() {
+
+//     const [count, setCount] = useState(0);
+
+//     useEffect(() => {
+//         // console.log("Count changed:", count);
+//         console.log("Hello",count);
+//     },[count]);
 
 //     function increase() {
-//         count = count + 1;
-//         console.log(count);
+//         setCount(count + 1);
 //     }
 
 //     return (
 //         <div>
-//             <h1>{count}</h1>
+
+//             <h1>Count: {count}</h1>
 
 //             <button onClick={increase}>
-//                 Increase
+//                 +
 //             </button>
+
 //         </div>
 //     );
 // }
 
-// ;
-import { useState } from "react";
-
-function K() {
-
-    const [count, setCount] = useState(0);
-
-    function increase() {
-
-        setCount(count + 1);
-
-    }
-
-    return (
-        <div>
-
-            <h1>{count}</h1>
-
-            <button onClick={increase}>
-                Increase
-            </button>
-
-        </div>
-    );
-}
-
-export default K;

@@ -1,4 +1,4 @@
-import K from "../Components/HomeComponets/k";
+// import K from "../Components/HomeComponets/k";
 import Card from "../Components/HomeComponets/Card";
 import Studentdata from "../Components/HomeComponets/studentdata";
 import Image from "../assets/image.png"
@@ -6,7 +6,7 @@ import Image from "../assets/image.png"
 export default function Home(){
     return(
         <>
-     <K/>
+     {/* <K/> */}
         <Card/>
        <div className="flex gap-20 ">
          <Studentdata
